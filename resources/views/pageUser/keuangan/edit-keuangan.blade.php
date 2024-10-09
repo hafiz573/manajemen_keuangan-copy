@@ -33,7 +33,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <form action="{{ route('keuanganuser.update',$keuangan->id) }}" method="POST">
+                                    <form action="{{ route('keuangan.update',$keuangan->id) }}" method="POST">
                                         @csrf
                                         @method('PUT')
                                         <div class="form-group">
